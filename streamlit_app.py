@@ -9,6 +9,8 @@ from mindee import Client, documents
 
 # Setup PyTesseract
 pytesseract.pytesseract.tesseract_cmd = "YOUR_TESSERACT_APPLICATION_FILEPATH"
+
+# Setup Mindee API and URL
 mindee_client = Client(api_key="YOUR_MINDEE_API_KEY")
 url = "https://api.mindee.net/v1/products/mindee/invoices/v4/predict"
 
